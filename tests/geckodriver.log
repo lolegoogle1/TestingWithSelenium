@@ -1,0 +1,13 @@
+1639712182703	geckodriver	INFO	Listening on 127.0.0.1:55680
+1639712184369	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55681" "-no-remote" "-profile" "C:\\Users\\OLEHHR~1\\AppData\\Local\\Temp\\rust_mozprofilefrRQly"
+1639712187326	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Oleh Hryshchuk\\AppData\\Local\\Temp\\rust_mozprofilefrRQly\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55681/devtools/browser/d9d85f1e-9441-40f8-8d0f-84d91392fdea
+1639712196603	Marionette	INFO	Listening on port 55686
+1639712197443	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639712201144	Marionette	INFO	Stopped listening on port 55686
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
